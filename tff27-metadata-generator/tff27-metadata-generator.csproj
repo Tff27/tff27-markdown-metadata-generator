@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>tff27-markdown-metadata-generator</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.1.0</Version>
+    <Product>Markdown Metadata Generator</Product>
+    <Authors>Tiago Fonseca</Authors>
+    <PackageId>Tff27.Markdown.Metadata.Generator</PackageId>
+    <AssemblyName>Tff27.Markdown.Metadata.Generator</AssemblyName>
+    <RootNamespace>Tff27.Markdown.Metadata.Generator</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+  </ItemGroup>
+
+</Project>

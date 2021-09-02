@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "tff27-metadata-generator": {
+      "commandName": "Project",
+      "commandLineArgs": "-i C:\\Users\\tiago.fonseca\\source\\repos\\mydemo\\mydemo\\ -o C:\\Users\\tiago.fonseca\\source\\repos\\mydemo\\mydemo\\  -n Meta -f dates -s Descending"
+    }
+  }
+}
