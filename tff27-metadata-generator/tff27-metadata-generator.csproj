@@ -7,7 +7,7 @@
     <ToolCommandName>tff27-markdown-metadata-generator</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.1.0</Version>
+    <Version>1.1.1</Version>
     <Product>Markdown Metadata Generator</Product>
     <Authors>Tiago Fonseca</Authors>
     <PackageId>Tff27.Markdown.Metadata.Generator</PackageId>
