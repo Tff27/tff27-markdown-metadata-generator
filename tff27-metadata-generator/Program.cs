@@ -87,9 +87,10 @@
             }
 
             var seriaizedMetadata = JsonSerializer.Serialize(postList, options);
-            var fileName = $@"{opts.OutputPath + opts.FileName}.json";
+            Directory.CreateDirectory(opts.OutputPath);
+            var fileName = $@"{ opts.FileName}.json";
 
-            File.WriteAllText(fileName, seriaizedMetadata);
+            File.WriteAllText(Path.Combine(opts.OutputPath, fileName), seriaizedMetadata);
         }
 
         static dynamic CreateMetadataForMdFile(string filePath)
@@ -113,8 +114,6 @@
                         ((IDictionary<string, object>)post).Add(headerRow[0].Trim(), headerRow[1].Trim());
                     }
                 }
-
-                //post.Body = sr.ReadToEnd().Trim();
             }
 
             return post;
