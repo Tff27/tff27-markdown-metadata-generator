@@ -13,6 +13,7 @@
     <PackageId>Tff27.Markdown.Metadata.Generator</PackageId>
     <AssemblyName>Tff27.Markdown.Metadata.Generator</AssemblyName>
     <RootNamespace>Tff27.Markdown.Metadata.Generator</RootNamespace>
+    <RepositoryUrl>https://github.com/Tff27/tff27-markdown-metadata-generator</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
