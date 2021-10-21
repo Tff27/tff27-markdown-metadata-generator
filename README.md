@@ -1,6 +1,8 @@
 TFF27 Markdown Metadata Generator
 ============
 
+![Build](https://github.com/Tff27/tff27-markdown-metadata-generator/actions/workflows/dotnet.yml/badge.svg)
+
 Create a metadata JSON file from markdown files front matter.
 
 ## Main Goals
